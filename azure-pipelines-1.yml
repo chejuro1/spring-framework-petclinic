@@ -15,10 +15,12 @@ variables:
   webAppName: 'chejuro-app-name'
 
   # Environment name
-  environmentName: 'chejuro-app-name'
+  environmentName: 'staging'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  pool:
+   name: Default
+   vmImageName: 'ubuntu-latest'
 
 stages:
 - stage: Build
