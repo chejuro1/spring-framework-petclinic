@@ -20,7 +20,7 @@ variables:
   # Agent VM image name
   pool:
    name: Default
-   vmImageName: 'ubuntu-latest'
+   vmImageName: 'dockeragent:latest'
 
 stages:
 - stage: Build
